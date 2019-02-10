@@ -21,8 +21,6 @@ class Nav extends React.Component {
 	render () {
 		return (
 			<div className="nav">
-                <button onClick={() => this.props.showMyCodes(true)}>My Code</button>
-                <button onClick={() => this.props.showMyCodes(false)}>Add Code</button>
                 <div className="color-grey">{this.state.account}</div>
             </div>
 		)
